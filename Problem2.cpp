@@ -4,7 +4,7 @@ public:
     vector<int> decrypt(vector<int>& code, int k)
     {
         vector<int> code2;
-        for (int count = 0; count < 3; count++)
+        for (int count = 0; count < 2; count++)
         {
             for (int count2 = 0; count2 < code.size(); count2++)
             {
